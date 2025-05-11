@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import { EnrollmentService } from "./enrollment.service";
-
+// enrollment Controll
 const insertIntoDB = async (req: Request, res: Response) => {
   try {
     const result = await EnrollmentService.insertIntoDB(req.body);
