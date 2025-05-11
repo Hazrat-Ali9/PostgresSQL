@@ -1,6 +1,6 @@
 import express from "express";
 import { EnrollController } from "./enrollment.controller";
-
+// enrollment routes all student
 const router = express.Router();
 // get all student name who enrolled to Next.js course
 router.get("/enroll-course", EnrollController.getEnrolledStudentName);
