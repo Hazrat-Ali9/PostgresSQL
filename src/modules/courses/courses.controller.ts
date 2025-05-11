@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import { CourseService } from "./courses.service";
-
+// Courses Controller
 const insertIntoDB = async (req: Request, res: Response) => {
   try {
     const result = await CourseService.insertIntoDB(req.body);
