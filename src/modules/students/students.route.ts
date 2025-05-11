@@ -1,6 +1,6 @@
 import express from "express";
 import { StudentController } from "./students.controller";
-
+// Studnet Route
 const router = express.Router();
 // get all students
 router.get("/", StudentController.getStudents);
