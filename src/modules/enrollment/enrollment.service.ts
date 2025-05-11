@@ -1,5 +1,5 @@
 import { Prisma, PrismaClient, Course, Enrollment } from "@prisma/client";
-
+// Enrollment Service
 const prisma = new PrismaClient();
 
 const insertIntoDB = async (data: Enrollment): Promise<Enrollment> => {
