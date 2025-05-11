@@ -99,3 +99,4 @@ FROM students;
 SELECT student_name
 FROM students
 WHERE email LIKE '%example.com';
+-- postgress sql 
