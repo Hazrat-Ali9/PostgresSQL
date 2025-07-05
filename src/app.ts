@@ -3,7 +3,7 @@ import cors from "cors";
 import { StudentRoutes } from "./modules/students/students.route";
 import { CourseRoutes } from "./modules/courses/courses.route";
 import { EnrollRoutes } from "./modules/enrollment/enrollment.route";
-// apps moduler 
+// apps ts
 const app: Application = express();
 app.use(express.json());
 app.use(cors());
